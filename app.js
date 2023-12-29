@@ -1,6 +1,4 @@
 const http = require("http");
-const fs=require("fs");
-const mainFile=fs.readFileSync("index.html","UTF-8")
 
 const url='https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=8e8d7d82a30998cbfa031feced1b5b80';
 
